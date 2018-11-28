@@ -41,8 +41,8 @@ const Tweeter = function () {
             return -1;
         }
         
-    const getPost = function() {
-    return console.log(posts)
+    const getPosts = function() {
+    return posts
 }
     const addPost = function(text) {
         idInit ++   
