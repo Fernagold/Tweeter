@@ -84,7 +84,7 @@ const Tweeter = function () {
         return removeComment
     }
     return {
-        getPost: getPost,
+        getPosts: getPosts,
         addPost: addPost,
         removePost: removePost,
         addComment: addComment,
