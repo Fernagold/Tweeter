@@ -7,6 +7,7 @@ renderer.renderPosts(tweeter.getPosts())
 
     const post = () => {
         tweeter.addPost($("#input").val())
+        $('input:text').val('')            
         renderer.renderPosts(tweeter.getPosts()) 
     }
     
